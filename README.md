@@ -1,7 +1,7 @@
 # Coronavirus Probability Detector - Deployment using Azure Web Apps
 ## Project Demo URL : 
 
-![Python 3.8.5](https://img.shields.io/badge/python-3.8-blue) 
+![Python 3.9](https://img.shields.io/badge/python-3.9-blue) 
 
 •This repository consists of files required to deploy a **Web App** created with **Flask on Microsoft Azure**. Coronavirus Probability Detector The project helps the user to identify whether someone is infected by corona virus by simply inputting certain values like Fever Value, Age, Body Pain , Runny Nose, Breathing Difficulty etc. with the help of a database.
 
