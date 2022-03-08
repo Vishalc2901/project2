@@ -1,5 +1,5 @@
 # Coronavirus Probability Detector - Deployment using Azure Web Apps
-## Project Demo URL : 
+## Project Demo URL : https://covidetec.azurewebsites.net
 
 ![Python 3.9](https://img.shields.io/badge/python-3.9-blue) 
 
