@@ -1,0 +1,207 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: 'Merriweather', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #666464;
+}
+
+/* Website Title */
+.container{
+    padding: 30px;
+	position: relative;
+	/* background: linear-gradient(45deg, #1a45a1, #14afb4, #11cc6f); */
+	background-color: #020202;
+	background-size: 500% 500%;
+	/* animation: change-gradient 10s ease-in-out infinite; */
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.container-heading{
+    margin: 0;
+}
+
+.heading_font{
+    color: lavender;
+	/* animation: color-change 20s infinite; */
+	font-family: 'Merriweather', serif;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+
+@keyframes color-change {
+	0% {
+		color: blue;
+	  }
+	  10% {
+		color: #8e44ad;
+	  }
+	  20% {
+		color: #1abc9c;
+	  }
+	  30% {
+		color: #d35400;
+	  }
+	  40% {
+		color: blue;
+	  }
+	  50% {
+		color: #34495e;
+	  }
+	  60% {
+		color: blue;
+	  }
+	  70% {
+		color: #2980b9;
+	  }
+	  80% {
+		color: #f1c40f;
+	  }
+	  90% {
+		color: #2980b9;
+	  }
+	  100% {
+		color: pink;
+	  }
+}
+
+.description p{
+	color: #ffffff;
+    font-style: italic;
+    font-size: 14px;
+    margin: -5px 0 0;
+}
+
+/* Text Area */
+.ml-container{
+    margin: 30px 0;
+	flex: 1 0 auto;
+	margin-bottom: 25px;
+}
+
+.form-input {
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	/* box-sizing: content-box; */
+	background: #f9f9f9;
+   	border: 2px solid #000000;
+	border-radius: 15px;
+	width: 510px;
+	height: 25px;
+	margin-bottom: 8px;
+}
+
+#cp{
+	color: #666464;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	/* box-sizing: content-box; */
+	background: #f9f9f9;
+	border: 2px solid #000000;
+	border-radius: 15px;
+	width: 525px;
+	height: 40px;
+	margin-bottom: 8px;
+}
+/* Predict Button */
+.my-cta-button{
+	background: #f9f9f9;
+   	border: 2px solid #000000;
+    border-radius: 1000px;
+    /* box-shadow: 3px 3px #8c8c8c; */
+	margin-top: 10px;
+    padding: 10px 36px;
+    color: #1b1a1a;
+    display: inline-block;
+   	font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+
+.my-cta-button:hover{
+    color: blue;
+    border: 2px solid blue;
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+
+/* Contact */
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+/* Footer */
+.footer{
+	flex-shrink: 0;
+	position: relative;
+	padding: 20px;
+	/* background: linear-gradient(45deg, #1a45a1, #14afb4, #11cc6f); */
+	background-size: 500% 500%;
+	background-color: #000000;
+	/* animation: change-gradient 10s ease-in-out infinite; */
+}
+
+.footer-description{
+	color: #ffffff;
+	margin: 0;
+	font-size: 12px;
+}
+
+/* Result */
+.results{
+    padding: 30px 0 0;
+	flex: 1 0 auto;
+}
+
+.danger{
+    color: darkred;
+}
+
+.note{
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	display: flex;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.safe{
+    color: rgb(136 245 145);
+}
+
+.gif{
+	width: 25%;
+}
+
+.gif1{
+	width: 35%;
+    	margin: 10px 0;
+}
